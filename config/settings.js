@@ -46,14 +46,14 @@ const MUSIC_TRACKS = [
    Nama file harus:  img1.jpeg  img2.jpeg  … img8.jpeg
    Ganti caption (keterangan foto) di setiap baris.               */
 const GALLERY_PHOTOS = [
-  { file: "img1.jpeg", caption: "jujur deh, satu senyuman dari kamu aja udah bikin harianku jauh lebih baik." },  // ← GANTI CAPTION
-  { file: "img2.jpeg", caption: "kamu tuh beneran alasan kenapa hatiku berasa sepenuh ini, serius." },
-  { file: "img3.jpeg", caption: "tiap detik bareng kamu jelas-jelas jadi favoritku." },
-  { file: "img4.jpeg", caption: "ada orang yang nyari kebahagiaan seumur hidup, aku nemuinnya di kamu aja." },
-  { file: "img5.jpeg", caption: "kamu ngubah hidupku yang biasa aja jadi seindah ini, gatau gimana caranya." },
-  { file: "img6.jpeg", caption: "hatiku beneran ngerasa paling aman kalau lagi sama kamu." },
-  { file: "img7.jpeg", caption: "kalau aku bisa ngulang momen apapun, aku bakal tetap pilih kita, tiap saat." },
-  { file: "img8.jpeg", caption: "tetep jadi orang favoritku, selalu dan selamanya." },
+  { file: "img1.jpeg", caption: " " },  // ← GANTI CAPTION
+  { file: "img2.jpeg", caption: " " },
+  { file: "img3.jpeg", caption: " " },
+  { file: "img4.jpeg", caption: " " },
+  { file: "img5.jpeg", caption: " " },
+  { file: "img6.jpeg", caption: " " },
+  { file: "img7.jpeg", caption: " " },
+  { file: "img8.jpeg", caption: " " },
 ];
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -84,25 +84,25 @@ const MEMORIES = [
     depth: "2m",
     year:  "Chapter One",
     title: "where it all started",
-    text:  "momen itu pas semuanya tiba-tiba klik, dan tiba-tiba semuanya mulai masuk akal.",
+    text:  "semuanya dimulai dari pertemuan yang nggak pernah kita sangka, sampai akhirnya cerita kita pelan-pelan menemukan jalannya sendiri.",
   },
   {
     depth: "8m",
     year:  "Chapter Two",
-    title: "the quiet days",
-    text:  "cuma kamu, aku, dan momen-momen kecil sederhana yang ternyata akhirnya berarti segalanya.",
+    title: "our little moments",
+    text:  "hari-hari sederhana yang kita lewatin bareng ternyata berubah jadi kenangan yang paling sering kita rindukan.",
   },
   {
     depth: "16m",
     year:  "Chapter Three",
-    title: "through the storms",
-    text:  "kita juga pernah ngelewatin masa susah, ada badai dan kekacauan juga, tapi entah gimana kita selalu nemu jalan buat balik lagi satu sama lain.",
+    title: "through everything",
+    text:  "kita pernah ketawa, pernah nangis, pernah capek, bahkan hampir nyerah. tapi di setiap cerita itu, kita selalu milih buat bertahan dan tumbuh bareng.",
   },
   {
     depth: "24m",
     year:  "Chapter Four",
-    title: "finding the light",
-    text:  "kamu beneran bagian paling terang dari seluruh perjalananku, yang selalu bikin semuanya terasa lebih ringan meskipun lagi berat-beratnya.",
+    title: "still choosing us",
+    text:  "setelah semua yang udah kita lewatin, ternyata pilihan terbaik kita tetap sama: saling memilih, saling pulang, dan terus melangkah bersama.",
   },
 ];
 
@@ -112,12 +112,12 @@ const MEMORIES = [
    icon: wave | shell | star | compass | anchor | heart
    text: isi ucapannya                                            */
 const WISHES = [
-  { icon: "wave",    text: "semoga tahun ini ngasih kamu ketenangan sedalam lautan, sedalam itu juga hati kamu yang selalu penuh kebaikan." },
-  { icon: "shell",   text: "semoga hari-harimu tetap seterang ini, kayak matahari yang mantul di atas air, dan malam-malammu tetap tenang kayak air pasang yang pelan-pelan balik ke laut." },
-  { icon: "star",    text: "semoga setiap keinginan kecil kamu pelan-pelan jadi kenyataan, pas banget waktu kamu lagi butuh." },
-  { icon: "compass", text: "kemanapun tahun ini bawa kamu pergi, aku harap kamu selalu nemu jalan balik ke orang-orang yang beneran peduli dan sayang sama kamu." },
-  { icon: "anchor",  text: "tetep membumi, tetep bersyukur, dan jujur aja tetep jadi diri kamu yang sekarang — cantik dengan cara kamu sendiri, selalu." },
-  { icon: "heart",   text: "selamat anniversary — cheers buat satu tahun lagi penuh kenangan yang bakal selalu layak buat disimpan." },
+  { icon: "wave",    text: "semoga tahun ini ngasih kita ketenangan sedalam lautan, dan semoga hati kita tetap saling jadi tempat pulang." },
+  { icon: "shell",   text: "semoga hari-hari kita tetap seterang matahari di atas laut, dan setiap malam selalu dipenuhi rasa nyaman karena masih saling memiliki." },
+  { icon: "star",    text: "semoga semua mimpi yang kita susun bareng pelan-pelan jadi kenyataan, satu per satu, di waktu yang paling tepat." },
+  { icon: "compass", text: "ke mana pun hidup membawa kita, semoga langkah kita selalu menemukan jalan untuk kembali saling memilih." },
+  { icon: "anchor",  text: "semoga cinta kita tetap kuat, tetap sederhana, dan tetap jadi tempat paling aman untuk saling bersandar, apa pun yang terjadi." },
+  { icon: "heart",   text: "happy anniversary, untuk semua tawa, pelukan, perjuangan, dan setiap hari yang sudah kita lewati bersama. here's to many more beautiful years with us. 🤍" },
 ];
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
